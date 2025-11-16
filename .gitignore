@@ -4,10 +4,8 @@ __pycache__/
 # Training logs
 runs/
 
-# Large exported models
+# Large exported models (keep ONNX in git, ignore heavy training artifacts)
 export/*.pth
-export/*.onnx
-export/*.onnx.data
 export/*.torchscript
 
 # Local test images

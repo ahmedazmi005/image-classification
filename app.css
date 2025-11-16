@@ -1,0 +1,124 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .chat-log {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .chat-bubble {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+  
+  .chat-bubble.user {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .chat-bubble.bot {
+    background-color: #f0f0f0;
+    color: black;
+    align-self: flex-start;
+  }
+  
+  .chat-bubble .uploaded-image {
+    max-width: 150px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+  }
+  
+  .chat-form {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-form input[type="text"] {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .chat-form button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .attach-button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #f0f0f0;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .chat-form input[type="file"] {
+    display: none;
+  }
