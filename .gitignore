@@ -1,0 +1,18 @@
+__pycache__/
+.DS_Store
+
+# Training logs
+runs/
+
+# Large exported models
+export/*.pth
+export/*.onnx
+export/*.onnx.data
+export/*.torchscript
+
+# Local test images
+test.jpg
+test2.jpg
+test3.jpg
+
+
