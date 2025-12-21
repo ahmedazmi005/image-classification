@@ -1,4 +1,4 @@
-# Skin Condition Classifier (MobileNetV3)
+# Skin Condition Classifier (MobileNetV3) [HackNYU Fall '25]
 
 This project trains a MobileNetV3 model to classify dermatology images into 24 skin-condition classes using PyTorch and exports the model to TorchScript and ONNX for deployment.
 
